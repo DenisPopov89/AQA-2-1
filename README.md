@@ -1,4 +1,4 @@
-# AQA-2-1 [![Build status](https://ci.appveyor.com/api/projects/status/6x3tvm60e6ihubai?svg=true)](https://ci.appveyor.com/project/Volgogradec/aqa-2-1)
+# AQA-2-1 [![Build status](https://ci.appveyor.com/api/projects/status/2ta3o9ocuwil3ndg?svg=true)](https://ci.appveyor.com/project/DenisGrigoryevichPopov/ci-appveyor)
 2.1. Тестирование веб-интерфейсов
 
 # Домашнее задание к занятию «2.1. Тестирование веб-интерфейсов»
