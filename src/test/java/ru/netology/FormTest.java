@@ -26,7 +26,6 @@ public class FormTest {
 
     @BeforeEach
     void setUp() {
-        driver = new ChromeDriver(options);
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-dev-shm-usage");
