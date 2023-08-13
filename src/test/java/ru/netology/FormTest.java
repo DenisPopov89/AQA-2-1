@@ -26,7 +26,6 @@ public class FormTest {
 
     @BeforeEach
     void setUp() {
-        WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
