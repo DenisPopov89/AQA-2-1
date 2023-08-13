@@ -1,5 +1,6 @@
 package ru.netology;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.AfterEach;
@@ -20,9 +21,7 @@ public class FormTest {
 
     @BeforeAll
     static void setUpAll() {
-        options = new ChromeOptions();
-        options.addArguments("--headless");
-        System.setProperty("webdriver.chrome.driver", "driver/linux/chromedriver");
+        WebDriverManager.chromedriver().setup();
     }
 
     @BeforeEach
