@@ -27,8 +27,13 @@ public class FormTest {
     @BeforeEach
     void setUp() {
         driver = new ChromeDriver(options);
+        WebDriverManager.chromedriver().setup();
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
     }
-
     @AfterEach
     void tearDown() {
         driver.quit();
